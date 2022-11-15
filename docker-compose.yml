@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  nginx:
+    image: hackersploit/bwapp-docker
+    container_name: bwapp
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./app:/app
