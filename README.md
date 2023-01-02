@@ -19,5 +19,4 @@ docker ps -a
 ```
 
 **The good of this**
-- If you want to modify the code of bWAPP you can just modify the code in `app/`, refresh the page you should see the changes immediately 
-- Why docker-compose for volume? I am using Mac the path of docker storeing volume is tricky but if you using Linux, then you can just build volume without docker compose.
+- If you want to modify the code of bWAPP you can just modify the code in `app/`, refresh the page you should see the changes immediately.
